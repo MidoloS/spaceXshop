@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-const URI = 'mongodb://localhost/spacexshop'
+
+const URI = 'mongodb://localhost/spacexshop';
+
 mongoose.connect(URI, {
     useNewUrlParser: true, 
     useCreateIndex: true
